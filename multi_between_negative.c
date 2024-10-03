@@ -9,7 +9,7 @@ int multi_between_negative(int array[], int size) {
         return 0;
     }
     int product = 1;
-    for (int i = first_neg + 1; i < last_neg; i++) {
+    for (int i = first_neg; i < last_ne -1; i++) {
 	    product *= array[i];
     }
     return product;
